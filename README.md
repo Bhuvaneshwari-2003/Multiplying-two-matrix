@@ -1,18 +1,42 @@
 # Multiplying-two-matrix
 
 ## AIM:
-
+To write a program to perform Multiplying-two-matrix using python programming.
 ## ALGORITHM:
+Step 1:
+Import Numpy as np.
 
-### Step 1:
-### Step 2:
-### Step 3:
-### Step 4:
-### Step 5:
+Step 2:
+Get input from the user.
 
-## PROGRAM: 
+Step 3:
+Create empty lists l1 and l2.
 
+Step 4:
+Use for loop to append the values into the list created.
+
+Step 5:
+Print the product of two arrays.
+
+
+
+## PROGRAM:
+import numpy as np
+la=[]
+lb=[]
+n=int(input())
+for i in range (n):
+    la.append(int(input()))
+for j in range (n):
+    lb.append(int(input()))
+a1=np.array(la)
+a2=np.array(lb)
+pro=a1*a2
+print("Product of two arrays is:",pro)
 ## OUTPUT:
+![Screenshot (68)](https://user-images.githubusercontent.com/94828604/154999244-ad6dc0dc-eccf-4af3-9b62-12e4a21ea9fa.png)
 
 ## RESULT:
+Thus the program is written to perform Multiplying-two-matrix using python programming.
+
 
